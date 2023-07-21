@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(bg4.png);
+    background-position: center;
+    background-size: auto;
+    scroll-behavior: smooth;
+}
+.row{
+    display:flex;
+    height:88%;
+    align-items: center;
+}
+.col{
+    flex-basis:50%;
+}
+h2{
+    color: black;
+    font-size: 60px;
+    line-height: 55px;
+    margin:10%;
+    font-family: 'cooper black';
+    
+}
+.logo{
+    height:10%;
+    width:5%;
+    margin:0%;
+  }
+  header{
+    position:fixed;
+    top:5%;
+    left:5%;
+    width: 100%;
+    z-index: 1000;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+p{
+    color:black;
+    font-size: 17px;  
+    margin:10%;
+}
+.card{
+    width:230px;
+    height:260px;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 10px 10px;
+    box-sizing:border-box;
+    cursor: pointer;
+    margin:10px 10px;
+    background-position: center;
+    background-size:cover;
+    transition:transform 0.5s;
+}
+.card1{
+background-image: url(batangas1.jpg);
+}
+.card2{
+background-image: url(batangas2.jpg);
+}
+.card3{
+background-image: url(batangas3.jpg);
+}
+.card4{
+    background-image: url(batangas4.jpg);
+}
+.card5{
+    background-image: url(batangas5.jpg);
+}
+.card6{
+    background-image: url(batangas6.jpg);
+}
+.card7{
+    background-image: url(batangas7.jpg);
+}
+.card8{
+    background-image: url(batangas8.jpg);
+}
+.card:hover{
+    transform:translateY(-10px);
+}
+h5{
+    color:white;
+
+}
